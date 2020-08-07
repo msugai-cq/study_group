@@ -37,7 +37,7 @@
 		082CF76424D5A5B9001F7680 /* SampleArticleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleArticleListViewController.swift; sourceTree = "<group>"; };
 		082CF76724D5A82F001F7680 /* SampleArticleList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SampleArticleList.storyboard; sourceTree = "<group>"; };
 		082CF76A24D5D526001F7680 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		083FD6FC24C33D2900383122 /* intern_homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intern_homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		083FD6FC24C33D2900383122 /* intern_2week_study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intern_2week_study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		083FD6FF24C33D2900383122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		083FD70824C33D2B00383122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		083FD70B24C33D2B00383122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		083FD6F324C33D2900383122 = {
 			isa = PBXGroup;
 			children = (
-				083FD6FE24C33D2900383122 /* intern_homework */,
+				083FD6FE24C33D2900383122 /* intern_2week_study */,
 				083FD6FD24C33D2900383122 /* Products */,
 				083FD71324C34D2300383122 /* Frameworks */,
 			);
@@ -112,12 +112,12 @@
 		083FD6FD24C33D2900383122 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				083FD6FC24C33D2900383122 /* intern_homework.app */,
+				083FD6FC24C33D2900383122 /* intern_2week_study.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		083FD6FE24C33D2900383122 /* intern_homework */ = {
+		083FD6FE24C33D2900383122 /* intern_2week_study */ = {
 			isa = PBXGroup;
 			children = (
 				08C5FE2324CD79D4007100CA /* API */,
@@ -130,7 +130,7 @@
 				083FD70A24C33D2B00383122 /* LaunchScreen.storyboard */,
 				082CF76224D59281001F7680 /* R.generated.swift */,
 			);
-			path = intern_homework;
+			path = intern_2week_study;
 			sourceTree = "<group>";
 		};
 		083FD71324C34D2300383122 /* Frameworks */ = {
@@ -215,9 +215,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		083FD6FB24C33D2900383122 /* intern_homework */ = {
+		083FD6FB24C33D2900383122 /* intern_2week_study */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 083FD71024C33D2B00383122 /* Build configuration list for PBXNativeTarget "intern_homework" */;
+			buildConfigurationList = 083FD71024C33D2B00383122 /* Build configuration list for PBXNativeTarget "intern_2week_study" */;
 			buildPhases = (
 				083FD71F24C371BF00383122 /* R.Swift */,
 				083FD6F824C33D2900383122 /* Sources */,
@@ -230,9 +230,9 @@
 			);
 			dependencies = (
 			);
-			name = intern_homework;
+			name = intern_2week_study;
 			productName = Intern2020;
-			productReference = 083FD6FC24C33D2900383122 /* intern_homework.app */;
+			productReference = 083FD6FC24C33D2900383122 /* intern_2week_study.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -250,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 083FD6F724C33D2900383122 /* Build configuration list for PBXProject "intern_homework" */;
+			buildConfigurationList = 083FD6F724C33D2900383122 /* Build configuration list for PBXProject "intern_2week_study" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -263,7 +263,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				083FD6FB24C33D2900383122 /* intern_homework */,
+				083FD6FB24C33D2900383122 /* intern_2week_study */,
 			);
 		};
 /* End PBXProject section */
@@ -319,11 +319,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				$SRCROOT/intern_homework/R.generated.swift,
+				$SRCROOT/intern_2week_study/R.generated.swift,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT/rswift/rswift\" generate \"$SRCROOT/intern_homework/R.generated.swift\"\n";
+			shellScript = "\"$SRCROOT/rswift/rswift\" generate \"$SRCROOT/intern_2week_study/R.generated.swift\"\n";
 		};
 		08A6C8E824C46FA600A812DF /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -506,14 +506,14 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = intern_homework/Info.plist;
+				INFOPLIST_FILE = intern_2week_study/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "caraquri.Intern-homework";
-				PRODUCT_NAME = intern_homework;
+				PRODUCT_BUNDLE_IDENTIFIER = "caraquri.Intern-2week-study";
+				PRODUCT_NAME = intern_2week_study;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -530,14 +530,14 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = intern_homework/Info.plist;
+				INFOPLIST_FILE = intern_2week_study/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "caraquri.Intern-homework";
-				PRODUCT_NAME = intern_homework;
+				PRODUCT_BUNDLE_IDENTIFIER = "caraquri.Intern-2week-study";
+				PRODUCT_NAME = intern_2week_study;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -547,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		083FD6F724C33D2900383122 /* Build configuration list for PBXProject "intern_homework" */ = {
+		083FD6F724C33D2900383122 /* Build configuration list for PBXProject "intern_2week_study" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				083FD70E24C33D2B00383122 /* Debug */,
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		083FD71024C33D2B00383122 /* Build configuration list for PBXNativeTarget "intern_homework" */ = {
+		083FD71024C33D2B00383122 /* Build configuration list for PBXNativeTarget "intern_2week_study" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				083FD71124C33D2B00383122 /* Debug */,
