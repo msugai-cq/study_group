@@ -19,6 +19,8 @@
 		083FD71724C34D2300383122 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083FD71424C34D2300383122 /* Nuke.framework */; };
 		0841933724D9505800BFCBD3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0841933624D9505800BFCBD3 /* Logger.swift */; };
 		0841933924D950FF00BFCBD3 /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0841933824D950FF00BFCBD3 /* ErrorType.swift */; };
+		0848136024DD7AA600BF590E /* QuestionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848135F24DD7AA600BF590E /* QuestionListViewController.swift */; };
+		0848136224DD7ACC00BF590E /* QuestionList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0848136124DD7ACC00BF590E /* QuestionList.storyboard */; };
 		08527CC824C6FEE900C1F1D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08527CC724C6FEE900C1F1D5 /* LoginViewController.swift */; };
 		086F846524D997A00084571E /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F846424D997A00084571E /* UIAlertController+Extensions.swift */; };
 		088E557524D660B700A2FE3E /* SampleArticleListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E557324D660B700A2FE3E /* SampleArticleListCell.swift */; };
@@ -47,6 +49,8 @@
 		083FD71624C34D2300383122 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
 		0841933624D9505800BFCBD3 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		0841933824D950FF00BFCBD3 /* ErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
+		0848135F24DD7AA600BF590E /* QuestionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListViewController.swift; sourceTree = "<group>"; };
+		0848136124DD7ACC00BF590E /* QuestionList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuestionList.storyboard; sourceTree = "<group>"; };
 		08527CC724C6FEE900C1F1D5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		086F846424D997A00084571E /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
 		088E557324D660B700A2FE3E /* SampleArticleListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleArticleListCell.swift; sourceTree = "<group>"; };
@@ -143,9 +147,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0848135E24DD7A4200BF590E /* QuestionList */ = {
+			isa = PBXGroup;
+			children = (
+				0848135F24DD7AA600BF590E /* QuestionListViewController.swift */,
+				0848136124DD7ACC00BF590E /* QuestionList.storyboard */,
+			);
+			path = QuestionList;
+			sourceTree = "<group>";
+		};
 		08527CC924C7001400C1F1D5 /* SampleScreen */ = {
 			isa = PBXGroup;
 			children = (
+				0848135E24DD7A4200BF590E /* QuestionList */,
 				088E557B24D718A400A2FE3E /* MainTabBar */,
 				08C5FE1C24CD7234007100CA /* Login */,
 				082CF75D24D56946001F7680 /* Search */,
@@ -274,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				088E557624D660B700A2FE3E /* SampleArticleListCell.xib in Resources */,
+				0848136224DD7ACC00BF590E /* QuestionList.storyboard in Resources */,
 				082CF75F24D569E7001F7680 /* SampleSearch.storyboard in Resources */,
 				08C5FE1E24CD7256007100CA /* Login.storyboard in Resources */,
 				083FD70C24C33D2B00383122 /* LaunchScreen.storyboard in Resources */,
@@ -351,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08527CC824C6FEE900C1F1D5 /* LoginViewController.swift in Sources */,
+				0848136024DD7AA600BF590E /* QuestionListViewController.swift in Sources */,
 				0841933724D9505800BFCBD3 /* Logger.swift in Sources */,
 				088E557A24D669AF00A2FE3E /* Array+Extensions.swift in Sources */,
 				083FD70024C33D2900383122 /* AppDelegate.swift in Sources */,
