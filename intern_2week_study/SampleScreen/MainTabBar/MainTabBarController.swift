@@ -10,7 +10,7 @@ final class MainTabBarController: UITabBarController {
 
     private func setTab() {
         let sampleSearchViewController: UINavigationController = R.storyboard.sampleSearch.instantiateInitialViewController()!
-        let questionListViewController: QuestionListViewController = R.storyboard.questionList.instantiateInitialViewController()!
+        let questionListViewController: UINavigationController = R.storyboard.questionList.instantiateInitialViewController()!
 
         setViewControllers([sampleSearchViewController, questionListViewController], animated: false)
     }
