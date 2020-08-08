@@ -33,6 +33,10 @@
 		08C5FE2624CD7A8B007100CA /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C5FE2524CD7A8B007100CA /* Article.swift */; };
 		08C9DD8024DEF30800459724 /* QuestionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C9DD7E24DEF30800459724 /* QuestionListCell.swift */; };
 		08C9DD8124DEF30800459724 /* QuestionListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08C9DD7F24DEF30800459724 /* QuestionListCell.xib */; };
+		08C9DD8424DF098400459724 /* Question2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C9DD8324DF098400459724 /* Question2.storyboard */; };
+		08C9DD8624DF0A8E00459724 /* Question2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C9DD8524DF0A8E00459724 /* Question2ViewController.swift */; };
+		08C9DD8924DF0CBE00459724 /* Question2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C9DD8724DF0CBE00459724 /* Question2Cell.swift */; };
+		08C9DD8A24DF0CBE00459724 /* Question2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08C9DD8824DF0CBE00459724 /* Question2Cell.xib */; };
 		08EF05C524C37A6600129792 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083FD71524C34D2300383122 /* Rswift.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +71,10 @@
 		08C5FE2524CD7A8B007100CA /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		08C9DD7E24DEF30800459724 /* QuestionListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListCell.swift; sourceTree = "<group>"; };
 		08C9DD7F24DEF30800459724 /* QuestionListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionListCell.xib; sourceTree = "<group>"; };
+		08C9DD8324DF098400459724 /* Question2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Question2.storyboard; sourceTree = "<group>"; };
+		08C9DD8524DF0A8E00459724 /* Question2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2ViewController.swift; sourceTree = "<group>"; };
+		08C9DD8724DF0CBE00459724 /* Question2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2Cell.swift; sourceTree = "<group>"; };
+		08C9DD8824DF0CBE00459724 /* Question2Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Question2Cell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +186,7 @@
 		08527CC924C7001400C1F1D5 /* SampleScreen */ = {
 			isa = PBXGroup;
 			children = (
+				08C9DD8224DF096900459724 /* Question2 */,
 				083268A824DEE767007B6A7A /* Question1 */,
 				0848135E24DD7A4200BF590E /* QuestionList */,
 				088E557B24D718A400A2FE3E /* MainTabBar */,
@@ -237,6 +246,17 @@
 				08C5FE2524CD7A8B007100CA /* Article.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		08C9DD8224DF096900459724 /* Question2 */ = {
+			isa = PBXGroup;
+			children = (
+				08C9DD8524DF0A8E00459724 /* Question2ViewController.swift */,
+				08C9DD8324DF098400459724 /* Question2.storyboard */,
+				08C9DD8724DF0CBE00459724 /* Question2Cell.swift */,
+				08C9DD8824DF0CBE00459724 /* Question2Cell.xib */,
+			);
+			path = Question2;
 			sourceTree = "<group>";
 		};
 		08CC377D24D9870200438D2F /* Screen */ = {
@@ -310,6 +330,8 @@
 				088E557624D660B700A2FE3E /* SampleArticleListCell.xib in Resources */,
 				0848136224DD7ACC00BF590E /* QuestionList.storyboard in Resources */,
 				082CF75F24D569E7001F7680 /* SampleSearch.storyboard in Resources */,
+				08C9DD8424DF098400459724 /* Question2.storyboard in Resources */,
+				08C9DD8A24DF0CBE00459724 /* Question2Cell.xib in Resources */,
 				08C5FE1E24CD7256007100CA /* Login.storyboard in Resources */,
 				083268AC24DEE795007B6A7A /* Question1.storyboard in Resources */,
 				083FD70C24C33D2B00383122 /* LaunchScreen.storyboard in Resources */,
@@ -394,6 +416,7 @@
 				088E557A24D669AF00A2FE3E /* Array+Extensions.swift in Sources */,
 				08C9DD8024DEF30800459724 /* QuestionListCell.swift in Sources */,
 				083FD70024C33D2900383122 /* AppDelegate.swift in Sources */,
+				08C9DD8624DF0A8E00459724 /* Question2ViewController.swift in Sources */,
 				088E557524D660B700A2FE3E /* SampleArticleListCell.swift in Sources */,
 				082CF76B24D5D526001F7680 /* APIClient.swift in Sources */,
 				082CF76324D59281001F7680 /* R.generated.swift in Sources */,
@@ -402,6 +425,7 @@
 				08C5FE2624CD7A8B007100CA /* Article.swift in Sources */,
 				0841933924D950FF00BFCBD3 /* ErrorType.swift in Sources */,
 				082CF76124D56DE4001F7680 /* SampleSearchViewController.swift in Sources */,
+				08C9DD8924DF0CBE00459724 /* Question2Cell.swift in Sources */,
 				086F846524D997A00084571E /* UIAlertController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

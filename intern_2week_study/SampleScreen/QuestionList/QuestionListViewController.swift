@@ -10,6 +10,10 @@ final class QuestionListViewController: UIViewController {
         let item = QuestionItem(string: "Q1", viewController: question1ViewController)
         items.append(item)
         
+        let question2ViewController = R.storyboard.question2.instantiateInitialViewController()!
+        let item2 = QuestionItem(string: "Q2", viewController: question2ViewController)
+        items.append(item2)
+        
         tableView.register(R.nib.questionListCell)
         tableView.reloadData()
     }
