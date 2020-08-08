@@ -1,7 +1,7 @@
 import UIKit
 
 final class Question1ViewController: UIViewController {
-    override func viewDidLoad() {
-        
-    }
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var addTextButton: UIButton!
+    @IBOutlet weak var textView: UITextView!
 }
