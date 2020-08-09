@@ -149,9 +149,9 @@
 		083FD6FE24C33D2900383122 /* intern_2week_study */ = {
 			isa = PBXGroup;
 			children = (
+				08C9DD8B24DFD78100459724 /* Question */,
 				08C5FE2324CD79D4007100CA /* API */,
-				08527CC924C7001400C1F1D5 /* SampleScreen */,
-				08CC377D24D9870200438D2F /* Screen */,
+				08527CC924C7001400C1F1D5 /* Screen */,
 				088E557724D6698900A2FE3E /* Utils */,
 				083FD6FF24C33D2900383122 /* AppDelegate.swift */,
 				083FD70824C33D2B00383122 /* Assets.xcassets */,
@@ -183,18 +183,16 @@
 			path = QuestionList;
 			sourceTree = "<group>";
 		};
-		08527CC924C7001400C1F1D5 /* SampleScreen */ = {
+		08527CC924C7001400C1F1D5 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				08C9DD8224DF096900459724 /* Question2 */,
-				083268A824DEE767007B6A7A /* Question1 */,
 				0848135E24DD7A4200BF590E /* QuestionList */,
 				088E557B24D718A400A2FE3E /* MainTabBar */,
 				08C5FE1C24CD7234007100CA /* Login */,
 				082CF75D24D56946001F7680 /* Search */,
 				082CF76624D5A816001F7680 /* AriticleList */,
 			);
-			path = SampleScreen;
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		088E557724D6698900A2FE3E /* Utils */ = {
@@ -259,11 +257,13 @@
 			path = Question2;
 			sourceTree = "<group>";
 		};
-		08CC377D24D9870200438D2F /* Screen */ = {
+		08C9DD8B24DFD78100459724 /* Question */ = {
 			isa = PBXGroup;
 			children = (
+				083268A824DEE767007B6A7A /* Question1 */,
+				08C9DD8224DF096900459724 /* Question2 */,
 			);
-			path = Screen;
+			path = Question;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
