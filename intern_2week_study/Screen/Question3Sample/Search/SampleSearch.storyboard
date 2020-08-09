@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BQl-AW-HIb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KPi-1w-VBk">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -8,26 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--サンプル-->
-        <scene sceneID="KoY-Cn-ZPA">
-            <objects>
-                <navigationController title="サンプル" id="BQl-AW-HIb" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fFQ-Nh-lUK">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="KPi-1w-VBk" kind="relationship" relationship="rootViewController" id="Yzv-wa-7ST"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IJh-Gv-Cgo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1561" y="0.0"/>
-        </scene>
         <!--記事検索-->
         <scene sceneID="7AS-AQ-LNR">
             <objects>
-                <viewController storyboardIdentifier="SampleSearch" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KPi-1w-VBk" customClass="SampleSearchViewContorller" customModule="intern_homework" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SampleSearch" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KPi-1w-VBk" customClass="SampleSearchViewContorller" customModule="intern_2week_study" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k4D-mg-pMR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

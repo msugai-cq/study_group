@@ -13,8 +13,18 @@ final class QuestionListViewController: UIViewController {
         return QuestionItem(string: "課題2: TableViewとCellの実装", viewController: questionViewController)
     }()
     
+    private lazy var search: QuestionItem = {
+        let questionViewController = R.storyboard.search.instantiateInitialViewController()!
+        return QuestionItem(string: "課題3: [API]Qiitaの記事検索を実装", viewController: questionViewController)
+    }()
+    
+    private lazy var sampleSearch: QuestionItem = {
+        let questionViewController = R.storyboard.sampleSearch.instantiateInitialViewController()!
+        return QuestionItem(string: "課題3のサンプル: 課題3の参考にして下さい", viewController: questionViewController)
+    }()
+    
     private lazy var questionItems: [QuestionItem] = {
-        return [question1, question2]
+        return [question1, question2, search, sampleSearch]
     }()
     
     override func viewDidLoad() {
