@@ -1,4 +1,4 @@
-# iOS 3daysサマーインターン事前課題🏄
+# iOS 2week勉強会課題🏄
 <img src="https://github.com/ikawashima-cq/Resource/blob/master/caraquri_logo_hz_cmyk%20(2).png" width="90%">
 
 ## 目次
@@ -12,7 +12,7 @@
 ## 課題について
 
 ### 課題概要
-からくり株式会社 iOS 3dayサマーインターンに参加するにあたり、技術的に困らないようにするための事前課題です。
+からくり株式会社 iOS 2week勉強会に参加するにあたり、取り組んで頂く課題です。
 
 本課題が与えられた方は、下記の概要を詳しく読んだ上で課題を取り組んでください。
 
@@ -47,11 +47,11 @@ Qiitaの記事を検索するアプリです。
 
 install.shをつかうことでビルド環境を作成できます。
 ```
-cd [自身の作業ディレクトリ]/intern_homework_ios
+cd [自身の作業ディレクトリ]/intern_2week_study_ios
 sh install.sh
 
 ~~~~~~(内容を確認したら)~~~~~~
-open intern_homework_ios.xcodeproj/
+open intern_2week_study.xcodeproj/
 
 ~~~~~~(xcodeを開いたら)~~~~~~
 xcode上で command+R でビルド
@@ -60,22 +60,13 @@ xcode上で command+R でビルド
 ※install.shで`SwiftLint`と`carthage`のアップデート(インストール)を行っている。
 
 ### 課題の進めかた
-1. 課題1(最低限取り組んで欲しいもの)を行ってください。
-2. 課題2の中から実装できるところまで実装してください(実力を高めます)
+- 1issue : 1pr になるように課題を行なってください。また、課題が終了しましたら、PRをcq-engineers にレビュー依頼してください。
+- 各課題についてはissueを参考に課題1から進めてください。
 
 ### PRを作成する上での注意点
 - ローカルでビルドできている
 - 動作確認までしている
 - SwiftLintで出力されている警告はなるべく削除する
-
-### 当日までに調べておいて欲しい概念
-- Swiftのアクセス修飾子
-- オプショナルバインディング
-- TableView等基礎的なView
-- コードでの画面遷移
-  - present, push の違い
-- 循環参照
-- ライフサイクル
 
 ## 予備知識
 
@@ -95,7 +86,7 @@ xcode上で command+R でビルド
 <img src="https://user-images.githubusercontent.com/46508203/77295789-e4ec4e80-6d29-11ea-8608-1f24618d6b0f.png" width="500px">
 
 - [git初心者への道 - お仕事で困らないレベルまでググっとします。 · GitHub](https://gist.github.com/yatemmma/6486028)
-- [ Branchについて](https://havelog.ayumusato.com/develop/git/e513-git_branch_model.html)
+- [Branchについて](https://havelog.ayumusato.com/develop/git/e513-git_branch_model.html)
 
 ### 開発をする上で知っておいてほしい基礎知識
 - [http通信について](https://qiita.com/AkiyoshiOkano/items/ae4258c1caef3d9e70a2)
@@ -109,6 +100,17 @@ xcode上で command+R でビルド
 APIクライアント | Postman, Pawなど
 HTTP通信キャプチャ | Charles
 Gitクライアント |  Source Treeなど 
+
+### 開発する際に使える素材サイト等
+
+#### lottie animation
+https://lottiefiles.com/
+#### sound/BGM
+https://maoudamashii.jokersounds.com/
+#### icon
+https://www.iconfinder.com/
+#### app logo
+https://hatchful.shopify.com/ja/
 
 ### 参考資料
 - [Appleの公式ドキュメント](https://swift.org/documentation/api-design-guidelines/)
