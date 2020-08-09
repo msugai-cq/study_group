@@ -7,10 +7,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
                 
-        let loginViewController = R.storyboard.login.instantiateInitialViewController()!
-        
+        let questionListViewController = R.storyboard.questionList.instantiateInitialViewController()!
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = loginViewController
+        window?.rootViewController = questionListViewController
         window?.makeKeyAndVisible()
         
         return true
