@@ -1,26 +1,27 @@
 import UIKit
 
 final class QuestionListViewController: UIViewController {
+    
     @IBOutlet weak var tableView: UITableView!
     
     private lazy var question1: QuestionItem = {
         let questionViewController = R.storyboard.question1.instantiateInitialViewController()!
-        return QuestionItem(string: "課題1: Textfield, Button, TextView等の基礎", viewController: questionViewController)
+        return QuestionItem(title: "課題1: Textfield, Button, TextView等の基礎", viewController: questionViewController)
     }()
     
     private lazy var question2: QuestionItem = {
         let questionViewController = R.storyboard.question2.instantiateInitialViewController()!
-        return QuestionItem(string: "課題2: TableViewとCellの実装", viewController: questionViewController)
+        return QuestionItem(title: "課題2: TableViewとCellの実装", viewController: questionViewController)
     }()
     
     private lazy var search: QuestionItem = {
         let questionViewController = R.storyboard.search.instantiateInitialViewController()!
-        return QuestionItem(string: "課題3: [API]Qiitaの記事検索を実装", viewController: questionViewController)
+        return QuestionItem(title: "課題3: [API]Qiitaの記事検索を実装", viewController: questionViewController)
     }()
     
     private lazy var sampleSearch: QuestionItem = {
         let questionViewController = R.storyboard.sampleSearch.instantiateInitialViewController()!
-        return QuestionItem(string: "課題3のサンプル: 課題3の参考にして下さい", viewController: questionViewController)
+        return QuestionItem(title: "課題3のサンプル: 課題3の参考にして下さい", viewController: questionViewController)
     }()
     
     private lazy var questionItems: [QuestionItem] = {

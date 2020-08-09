@@ -42,6 +42,5 @@ enum ErrorType: Error {
         case .decode:
             return ErrorMessage(title: "デコードエラー", description: "レスポンスを確認してください")
         }
-        
     }
 }

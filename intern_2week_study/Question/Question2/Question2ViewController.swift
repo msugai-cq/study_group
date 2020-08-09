@@ -1,9 +1,10 @@
 import UIKit
 
 final class Question2ViewController: UIViewController {
+    
     @IBOutlet weak var tableView: UITableView!
     
-    private let sampleTexts: [String] = ["りんご", "ばなな", "ぶどう"]
+    private let areaTexts: [String] = ["茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県"]
 }
 
 extension Question2ViewController: UITableViewDataSource {

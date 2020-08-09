@@ -1,6 +1,7 @@
 import UIKit
 
 final class SampleSearchViewContorller: UIViewController {
+    
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var searchButton: UIButton!
     
