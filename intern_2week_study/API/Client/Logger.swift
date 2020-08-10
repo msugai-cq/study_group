@@ -21,7 +21,7 @@ struct Logger {
         let query = "\(components?.query ?? "")"
         let host = "\(components?.host ?? "")"
 
-        var requestLog = "\n-------------------⚡️⚡️ APIRequest(mcas-sdk-ios) ⚡️⚡️------------------>\n"
+        var requestLog = "\n-------------------⚡️⚡️ APIRequest ⚡️⚡️------------------>\n"
         requestLog += "\(urlString)"
         requestLog += "\n\n"
         requestLog += "\(method) \(path)?\(query) HTTP/1.1\n"
@@ -42,7 +42,7 @@ struct Logger {
     static func prettyPrint(data: Data) {
         guard isLoggerEnable else { return }
 
-        var requestLog = "\n-------------------🔥🔥 APIRespone(mcas-sdk-ios) 🔥🔥------------------>\n"
+        var requestLog = "\n-------------------🔥🔥 APIRespone 🔥🔥------------------>\n"
         requestLog += data.prettyPrintedJSONString ?? ""
         requestLog += "\n------------------------------------------------------------------------>\n"
 
