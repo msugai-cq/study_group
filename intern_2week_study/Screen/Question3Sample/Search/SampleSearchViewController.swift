@@ -9,6 +9,10 @@ final class SampleSearchViewContorller: UIViewController {
         searchArticles()
     }
     
+    override func viewDidLoad() {
+        
+    }
+    
     private func searchArticles() {
         // 多重タップ防止
         searchButton.isEnabled = false
