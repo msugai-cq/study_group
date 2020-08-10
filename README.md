@@ -24,9 +24,6 @@ https://github.com/yumemi/ios-engineer-codecheck)を載せます。
 
 ## プロジェクト概要
 
-### アプリ概要
-Qiitaの記事を検索するアプリです。
-
 ### ビルド環境
 - Xcode: 11.6
 - Swift: Swift5系
@@ -60,8 +57,10 @@ xcode上で command+R でビルド
 ※install.shで`SwiftLint`と`carthage`のアップデート(インストール)を行っている。
 
 ### 課題の進めかた
-- 1issue : 1pr になるように課題を行なってください。また、課題が終了しましたら、PRをcq-engineers にレビュー依頼してください。
-- 各課題についてはissueを参考に課題1から進めてください。
+1. 課題はbranchを切って進めてください。(例:feature/question1)
+2. 課題1~3まで順番に進めてください。
+3. 課題(issueに書いてあります)が終わるたびにPRを作成して下さい。また、PRはからくりエンジニア宛にレビューを依頼してください。
+4. 課題進行のスケジュールについては、インターン説明日に共有したものを参考にして下さい。
 
 ### PRを作成する上での注意点
 - ローカルでビルドできている
@@ -101,15 +100,15 @@ APIクライアント | Postman, Pawなど
 HTTP通信キャプチャ | Charles
 Gitクライアント |  Source Treeなど 
 
-### 開発する際に使える素材サイト等
+### 開発の際に使える素材サイト等
 
-#### lottie animation
+- lottie animation
 https://lottiefiles.com/
-#### sound/BGM
+- sound/BGM
 https://maoudamashii.jokersounds.com/
-#### icon
+- icon
 https://www.iconfinder.com/
-#### app logo
+-  app logo
 https://hatchful.shopify.com/ja/
 
 ### 参考資料
