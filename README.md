@@ -20,7 +20,7 @@
 - Githubにて`Use this template`を使用し、個人のリポジトリにコピー(publicにして下さい)して課題に取り組んでください。
 コーディング規約:
 - 標準的なコーディング規約であればどれに準じても良いですが、例として[参考リンク](
-https://github.com/yumemi/ios-engineer-codecheck)を載せます。
+https://github.com/eure/swift-style-guide/blob/master/README_jp.md)を載せます。
 
 ## プロジェクト概要
 
